@@ -74,11 +74,11 @@ function calc (first, second) {
 
 	if (first === 'niko' || second === 'niko') {
 		return -1;
-	} else if (first === 'reuben' || second === "reuben") {
+	}/* else if (first === 'reuben' || second === "reuben") {
 		if (first != second) {
 			return -2;
 		}
-	}
+	}//*/
 	
 	return percent;
 }
