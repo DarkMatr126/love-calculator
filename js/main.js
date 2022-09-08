@@ -10,7 +10,8 @@ window.addEventListener('load',() => {
 				return;
 			}
 		}
-		document.body.style.display = "none";
+		document.getElementById('calculator').style.display = 'none';
+		document.getElementById('blocked').innerText = 'The owner of this webpage has locked it between 7:45 am to 2:45 pm on weekdays.';
 	}
 });
 
