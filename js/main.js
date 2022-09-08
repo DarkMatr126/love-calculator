@@ -3,7 +3,6 @@ window.addEventListener('load',() => {
 	var hours = currentDate.getHours();
 	var minutes = currentDate.getMinutes();
 	var day = currentDate.getDay();
-	alert(day)
 	
 	if (hours > 7 && hours < 15 && day >= 1 && day <= 5) {
 		if (hours === 7 || hours === 14) {
