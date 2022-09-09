@@ -4,6 +4,7 @@ window.addEventListener('load',() => {
 	var minutes = currentDate.getMinutes();
 	var day = currentDate.getDay();
 	
+	/*
 	if (hours > 7 && hours < 15 && day >= 1 && day <= 5) {
 		if (hours === 7 || hours === 14) {
 			if (minutes < 45) {
@@ -12,7 +13,7 @@ window.addEventListener('load',() => {
 		}
 		document.getElementById('calculator').style.display = 'none';
 		document.getElementById('blocked').innerText = 'The owner of this webpage has locked it between 7:45 am to 2:45 pm on weekdays.';
-	}
+	}// */
 });
 
 function submit() {
