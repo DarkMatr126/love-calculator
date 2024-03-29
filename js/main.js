@@ -1,3 +1,7 @@
+window.addEventListener('keyup',e => {
+    if (e.key === 'Enter') {clicked()}
+    if (e.key === '/') {reset()};
+})
 function clicked () {
     animation();
 }
